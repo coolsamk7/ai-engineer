@@ -20,3 +20,5 @@ print(parse_answer('{"answer": "retrieval-augmented generation"}'))
 print(parse_answer("Sure! Here is the answer: RAG"))
 print(parse_answer('{"result": "RAG"}'))
 print(parse_answer('["answer"]'))
+question = "What is RAG?"
+print(f'Question: {question} Reply as JSON: {{"answer": "..."}}')
