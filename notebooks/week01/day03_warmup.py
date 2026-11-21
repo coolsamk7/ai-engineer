@@ -33,3 +33,7 @@ try:
     UserModel(name="Sam", age="thirty")
 except ValidationError as e:
     print("invalid:", e.error_count())
+
+double("ab")
+User("Sam", "30")
+UserModel(name="Sam", age="30")
