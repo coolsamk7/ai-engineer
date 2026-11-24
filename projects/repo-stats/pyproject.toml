@@ -1,0 +1,22 @@
+[project]
+name = "repo-stats"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sameer", email = "sameer.khandke@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "pydantic>=2.14.4",
+    "pydantic-settings>=2.16.3",
+    "pytest>=9.2.0",
+]
+
+[project.scripts]
+repo-stats = "repo_stats:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
