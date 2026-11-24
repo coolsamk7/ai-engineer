@@ -28,4 +28,3 @@ def test_parses_real_github_response() -> None:
 def test_rejects_bad_json(bad_json: str) -> None:
     with pytest.raises(ValidationError):
         Repo.model_validate_json(bad_json)
-

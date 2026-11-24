@@ -16,4 +16,3 @@ def main() -> None:
 
     results = asyncio.run(fetch_all(names))
     print(format_table(names, results))
-

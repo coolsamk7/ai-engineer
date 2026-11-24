@@ -1,10 +1,9 @@
 import asyncio
+
 import httpx
 
-from repo_stats.models.repo_model import Repo
-
 from repo_stats.config import Settings
-
+from repo_stats.models.repo_model import Repo
 
 API = "https://api.github.com/repos"
 

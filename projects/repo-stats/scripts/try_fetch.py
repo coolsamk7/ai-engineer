@@ -1,6 +1,5 @@
 import asyncio
 
-
 from repo_stats.github import fetch_all
 from repo_stats.table import format_table
 
