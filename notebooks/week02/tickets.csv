@@ -1,0 +1,9 @@
+id,created_at,customer,priority,category,tokens,resolved
+101,2026-11-01,acme,high,billing,1200,True
+102,2026-11-01,globex,low,login,300,True
+103,2026-11-02,acme,high,outage,850,False
+104,2026-11-03,initech,medium,billing,400,True
+105,2026-11-03,globex,high,outage,,False
+106,2026-11-04,acme,low,login,150,True
+107,2026-11-05,initech,medium,billing,620,False
+108,2026-11-05,globex,high,outage,980,true
